@@ -1,10 +1,3 @@
-/*
- * HTML, CSS, and Javascript for Web Developers
- * Coursera @ Johns Hopkins University
- * Bostina Stefan-Lucian
- * Date: 18 August 2016
- * Assignment: Module 5
- */
  
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
@@ -23,11 +16,11 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl = 
-  "http://davids-restaurant.herokuapp.com/categories.json";
+  "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl = 
-  "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
